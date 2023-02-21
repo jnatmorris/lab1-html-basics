@@ -21,4 +21,5 @@ To run locally, there are multiple options.
 -   favicon was generated [here](https://favicon.io/emoji-favicons/)
 
 <hr>
+<br>
 Last updated February 21st 2023
