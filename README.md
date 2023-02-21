@@ -2,12 +2,12 @@
 
 A small website showcasing The Queen of the Skies for lab 1, titled HTML basics, for the course Web Application Development.
 
-## Built With:
+### Built With:
 
 -   HTML
 -   In-line CSS
 
-## Viewing and running locally:
+### Viewing and running locally:
 
 To run locally, there are multiple options.
 
