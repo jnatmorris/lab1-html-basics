@@ -1,7 +1,3 @@
----
-permalink: /index.html
----
-
 # lab1-html-basics
 
 A small website showcasing The Queen of the Skies for lab 1, titled HTML basics, for the course Web Application Development.
