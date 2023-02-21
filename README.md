@@ -16,4 +16,6 @@ To run locally, there are multiple options.
 3. If you have the VS-Code extension **_Live Server_**, you can launch the server to view.
 4. If you are well versed in npm/yarn, you may install the package **_serve_** globally and run the command <code>serve</code> to view the site.
 
+-   favicon was generated [here](https://favicon.io/emoji-favicons/)
+
 Last updated February 21st 2023
