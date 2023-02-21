@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Home Page | Queen of the Skies</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body style="margin-top: 10vh; width: 100vw; overflow-x: hidden;">
+    <div style="margin-right: 10vw; margin-left:10vw">
+        <!-- header -->
+        <div style="margin-bottom:7vh; ">
+            <h1 style="font-size: 3rem; font-family: monospace;">The Queen of the skies</h1>
+        </div>
+
+        <!-- split screen into two sections by using grid -->
+        <div style="display:grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap:10%">
+            <div>
+                <h2 style="margin-top: 0vh; margin-bottom: 1vh;">The Queen</h2>
+                <!-- some text about the 747 -->
+                <p style="font-size: large; margin-bottom: 2vh; margin-top:0vh;">February 9th 1969 was a special day for
+                    the <a href="https://www.boeing.com/">Boeing Company</a>. It was the
+                    inaugural flight of the now known <span
+                        style="font-style: italic; text-decoration: underline; text-decoration-color: rgb(56 189 248); text-underline-offset: 2px;">Queen
+                        Of The Skies</span>. Having been through numerous iterations, a unique silhouette, and testing
+                    time, she has become beloved by aviation enthusiast and airlines alike. A few of the airlines
+                    that flew her are...
+                </p>
+                <table style="display: table; border-collapse: collapse; width: 100%;">
+                    <thead>
+                        <tr style="text-align: center; display: table-row; border: 1px solid rgb(156, 156, 156);">
+                            <th>Name of Airline</th>
+                            <th>Country HQ</th>
+                            <th>Number of 747s</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr
+                            style="text-align: center; display: table-row; border: 1px solid rgb(156, 156, 156); background-color: rgb(226, 226, 226);">
+                            <td>Atlas Air</td>
+                            <td>Purchase, New York</td>
+                            <td>48</td>
+                        </tr>
+                        <tr style="text-align: center; display: table-row; border: 1px solid rgb(156, 156, 156);">
+                            <td>UPS Airlines</td>
+                            <td>Louisville, Kentucky</td>
+                            <td>41</td>
+                        </tr>
+                        <tr
+                            style="text-align: center; display: table-row; border: 1px solid rgb(156, 156, 156); background-color: rgb(226, 226, 226);">
+                            <td>Cargolux</td>
+                            <td>Sandweiler, Luxembourg</td>
+                            <td>30</td>
+                        </tr>
+
+                        <tr style="text-align: center; display: table-row; border: 1px solid rgb(156, 156, 156);">
+                            <td>Lufthansa</td>
+                            <td>Cologne, Germany</td>
+                            <td>27</td>
+                        </tr>
+                        <tr
+                            style="text-align: center; display: table-row; border: 1px solid rgb(156, 156, 156); background-color: rgb(226, 226, 226);">
+                            <td>Many more...</td>
+                            <td>--</td>
+                            <td>--</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <p style="margin-top:1vh; margin-bottom:0vh;">Data found across <a
+                        href="https://www.wikipedia.org/">wikipedia</a>.</p>
+
+                <h2 style="margin-bottom: 1vh; margin-top:5vh">General Information</h2>
+                <ul style="font-size: large; margin-top: 0vh; margin-bottom: 0vh;">
+                    <li>
+                        Number of units (including prototypes) built: 1,574
+                    </li>
+                    <li>
+                        Initial reason for development was for a large USAF transport
+                    </li>
+                    <li style="margin-bottom:0vh">
+                        First commercial flight was on January 22, 1970
+                        <ul>
+                            <li>First flight: February 9th 2969</li>
+                        </ul>
+                    </li>
+                </ul>
+                <p style="margin-top: 1vh; margin-bottom:0vh;">Facts found <a
+                        href="https://www.planeandpilotmag.com/article/boeing-747-50-years-50-amazing-facts/">here</a>
+                </p>
+            </div>
+            <!-- left hand side of grid. Contains image and credit to image  -->
+            <div>
+                <!-- blank allows us to have a new page -->
+                <a target="_blank" href="./static/747.jpg">
+                    <img src="./static/747.jpg" alt="747 taking off" loading="eager" width="100%" height="100%"
+                        align="middle"
+                        style="height:auto; width:90%; border-radius: 1.5%; box-shadow: 1px 4px 7px rgb(156, 156, 156);" />
+                </a>
+                <div style="display:flex; align-items: center; padding-left: 1px;">
+                    <p style="padding-right: 7px;">Image credits:</p>
+                    <a href="https://unsplash.com/photos/DMaIZgRq810">Isaac
+                        Struna</a>
+                </div>
+            </div>
+        </div>
+        <div style="position:fixed; bottom:0px;">
+            <hr>
+            <p>Last updated: February 21st 2023 by Justin Morris</p>
+        </div>
+</body>
+
+</html>
